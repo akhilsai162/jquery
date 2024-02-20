@@ -1,0 +1,32 @@
+#div1{
+    margin: auto;
+    text-align: center;
+    border: 3px black dotted;
+    font-size: 30px;
+    height: 200px;
+    width: 300px;
+    position: relative;
+    background-color: cadetblue;
+}
+/* #div2{
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+    border: 3px black dotted;
+    font-size: 30px;
+    height: 200px;
+    width: 300px;
+    position: relative;
+    background-color: yellow;
+} */
+#div3{
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+    border: 3px black dotted;
+    font-size: 30px;
+    height: 200px;
+    width: 300px;
+    position: relative;
+    background-color: rgb(96, 98, 98);
+}

@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("div").mouseover(function () {
+          $(this).animate(
+            { width: "200px", height: "200px", fontSize: "40px" },
+            2000
+          );
+          $(this).animate(
+            { width: "400px", height: "200px", fontSize: "80px" },
+            4000
+          );
+          $(this).animate(
+            { width: "800px", height: "800px", fontSize: "10px" },
+            1000
+          );
+          $(this).animate(
+            { width: "200px", height: "200px", fontSize: "40px" },
+            5000
+          );
+        });
+        alert("hello");
+      });
+    </script>
+  </head>
+  <body>
+    <div
+      style="
+        width: 100px;
+        height: 100px;
+        font-size: 18px;
+        background-color: red;
+      "
+    >
+      Hello akhil
+    </div>
+  </body>
+</html>

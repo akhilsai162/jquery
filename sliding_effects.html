@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#view").click(function () {
+                $("#details").slideDown(4000)
+            })
+            $("#hide").click(function () {
+                $("#details").slideUp();
+            })
+        });
+    </script>
+</head>
+<body>
+    <div>
+        <div id="summary">
+            <img src="opp.jpg" />
+            <p>Oppo</p>
+            <p>Price:Rs.30000</p>
+            <p>hkh</p>
+            <a href="#" id="view">View details</a>
+        </div>
+        <div id="details" style="display:none">
+            <p>16gb ram</p>
+            <p>Android</p>
+            <p>5 mgpxl</p>
+            <a href="#" id="hide">Hide details</a>
+        </div>
+    </div>
+</body>
+</html>
